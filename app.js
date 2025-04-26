@@ -35,3 +35,11 @@ const foods = ['pizza', 'cheeseburger'];
 foods.splice(1, 0, 'tofu');
 
 console.log('Exercise 5 result:', foods);
+
+const foods = ['pizza', 'cheeseburger'];
+
+// Exercise 6
+
+foods.splice(0, 1, 'sushi', 'cupcake');
+
+console.log('Exercise 6:', foods); 

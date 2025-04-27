@@ -73,3 +73,28 @@ const foods = ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger'];
 const hasSoup = foods.includes('soup');
 
 console.log('Exercise 10:', hasSoup);
+
+
+// Exercise 11
+ 
+
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+
+const odds = [];
+
+for (const num of nums) {
+  if (num % 2 !== 0) {
+    odds.push(num);
+  }
+}
+
+console.log('Exercise 11:', odds);
+
+// Exercise 12
+// not sure how to complete this task
+
+const nums = [1, 3, 5, 15, 30, 7, 9, 10, 45, 60, 25, 12, 11];
+
+const fizz = [];
+const buzz = [];
+const fizzbuzz = [];

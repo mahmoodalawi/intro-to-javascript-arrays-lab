@@ -65,3 +65,11 @@ const foods = ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger'];
 const allFoods = foods.join(' -> ');
 
 console.log('Exercise 9:', allFoods);
+
+// Exercise 10
+
+const foods = ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger'];
+
+const hasSoup = foods.includes('soup');
+
+console.log('Exercise 10:', hasSoup);

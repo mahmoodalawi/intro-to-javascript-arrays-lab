@@ -43,3 +43,9 @@ const foods = ['pizza', 'cheeseburger'];
 foods.splice(0, 1, 'sushi', 'cupcake');
 
 console.log('Exercise 6:', foods); 
+
+// Exercise 7
+
+const food = ['sushi', 'cupcake'];
+const yummy = food.slice();
+console.log('Exercise 7:', yummy);

@@ -98,3 +98,17 @@ const nums = [1, 3, 5, 15, 30, 7, 9, 10, 45, 60, 25, 12, 11];
 const fizz = [];
 const buzz = [];
 const fizzbuzz = [];
+
+
+// Exercise 13
+
+const numArrays = [
+    [100, 5, 23],
+    [15, 21, 72, 9],
+    [45, 66],
+    [7, 81, 90]
+  ];
+  
+  const numList = numArrays[numArrays.length - 1];
+  
+  console.log('Exercise 13:', numList);

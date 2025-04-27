@@ -50,10 +50,18 @@ const food = ['sushi', 'cupcake'];
 const yummy = food.slice();
 console.log('Exercise 7:', yummy);
 
-// Exercise 7
+// Exercise 8
 
 const foods = ['sushi', 'cupcake', 'tofu'];
 
 const soyIdx = foods.indexOf('tofu');
 
 console.log('Exercise 8:', soyIdx);
+
+// Exercise 9
+
+const foods = ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger'];
+
+const allFoods = foods.join(' -> ');
+
+console.log('Exercise 9:', allFoods);

@@ -49,3 +49,11 @@ console.log('Exercise 6:', foods);
 const food = ['sushi', 'cupcake'];
 const yummy = food.slice();
 console.log('Exercise 7:', yummy);
+
+// Exercise 7
+
+const foods = ['sushi', 'cupcake', 'tofu'];
+
+const soyIdx = foods.indexOf('tofu');
+
+console.log('Exercise 8:', soyIdx);

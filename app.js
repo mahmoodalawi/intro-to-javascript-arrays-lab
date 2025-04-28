@@ -34,7 +34,6 @@ foods.splice(1, 0, 'tofu');
 
 console.log('Exercise 5 result:', foods);
 
-const foods = ['pizza', 'cheeseburger'];
 
 // Exercise 6
 
@@ -58,7 +57,6 @@ console.log('Exercise 8:', soyIdx);
 
 // Exercise 9
 
-const foods = ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger'];
 
 const allFoods = foods.join(' -> ');
 
@@ -66,7 +64,6 @@ console.log('Exercise 9:', allFoods);
 
 // Exercise 10
 
-const foods = ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger'];
 
 const hasSoup = foods.includes('soup');
 

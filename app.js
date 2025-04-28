@@ -93,11 +93,27 @@ console.log('Exercise 11:', odds);
 // Exercise 12
 // not sure how to complete this task
 
-const nums = [1, 3, 5, 15, 30, 7, 9, 10, 45, 60, 25, 12, 11];
+// const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 const fizz = [];
 const buzz = [];
 const fizzbuzz = [];
+
+nums.forEach(num => {
+  if (num % 3 === 0) {
+    fizz.push(num);
+  }
+  
+  
+  if (num % 3 === 0 && num % 5 === 0) {
+    fizzbuzz.push(num);
+  }
+});
+
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);
 
 
 // Exercise 13
@@ -112,3 +128,31 @@ const numArrays = [
   const numList = numArrays[numArrays.length - 1];
   
   console.log('Exercise 13:', numList);
+
+
+
+// Exercise 14
+
+const num = numArrays[2][1]; 
+
+console.log('Exercise 14 result:
+
+// Exercise 15
+// As it's already declared 
+// const numArrays = [
+//     [100, 5, 23],
+//     [15, 21, 72, 9],
+//     [45, 66],
+//     [7, 81, 90]
+//   ];
+  
+  let total = 0; 
+  
+
+  numArrays.forEach(innerArray => {
+    innerArray.forEach(number => {
+      total += number;
+    });
+  });
+  
+  console.log('Exercise 15:\n', total);
